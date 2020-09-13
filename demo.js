@@ -1,14 +1,14 @@
 $(function () {
 
   function doCalc() {
-    if (inputsAreEmpty()) {
+    if (inputsEmpty()) {
       $resultArea.html('入力されていない入力欄があります');
       return;
     }
     updateResultArea();
   }
 
-  function inputsAreEmpty() {
+  function inputsEmpty() {
     if (getNum1Val() === '' || getNum2Val() === '') {
       return true;
     } else {
