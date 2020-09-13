@@ -17,10 +17,10 @@ $(function () {
   }
 
   function updateResultArea() {
-    var addend1 = getNum1Val();
-    var addend2 = getNum2Val();
-    var sum = addend1 + addend2;
-    $resultArea.html(addend1 + ' + ' + addend2 + ' = ' + sum);
+    var val1 = getNum1Val();
+    var val2 = getNum2Val();
+    var sum = val1 + val2;
+    $resultArea.html(val1 + ' + ' + val2 + ' = ' + sum);
   }
 
   function getNum1Val() {
