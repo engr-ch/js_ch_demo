@@ -34,7 +34,7 @@ $(function () {
   var $input1 = $('#num1');
   var $input2 = $('#num2');
   var $resultArea = $('#result_area');
-  var sumBtn = $('#sum_btn');
-  sumBtn.on('click', doCalc);
+  var $sumBtn = $('#sum_btn');
+  $sumBtn.on('click', doCalc);
 
 });
